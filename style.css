@@ -2655,6 +2655,20 @@ object {
 		font-size: 6rem;
 		line-height: 1.2;
 	}
+
+	.alignfull {
+		margin-left: calc(50% - 50vw);
+		margin-right: calc(50% - 50vw);
+		width: auto;
+		max-width: 1000%;
+	}
+ 
+	.alignwide {
+		margin-left: calc(25% - 25vw);
+		margin-right: calc(25% - 25vw);
+		width: auto;
+		max-width: 1000%;
+	}
 }
 
 @media screen and (max-width: 1304px) {
