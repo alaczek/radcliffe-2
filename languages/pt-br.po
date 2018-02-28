@@ -1,0 +1,368 @@
+# Translation of WordPress.com - Themes - Radcliffe-2 in Portuguese (Brazil)
+# This file is distributed under the same license as the WordPress.com - Themes - Radcliffe-2 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-02-06 19:59:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: WordPress.com - Themes - Radcliffe-2\n"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Parece que nada foi encontrado por aqui. Tente uma busca talvez?"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:78
+msgid "Tags"
+msgstr "Tags"
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:71
+msgid "Categories"
+msgstr "Categorias"
+
+#: contact-info/contact-info-functions.php:79
+msgid "E-mail"
+msgstr "Email"
+
+#: contact-info/contact-info-functions.php:61
+msgid "Location"
+msgstr "Localização"
+
+#: inc/customizer.php:33
+msgid "A short phrase describing your site"
+msgstr "Uma frase resumida explicando seu site"
+
+#: inc/customizer.php:30
+msgid "Enter a name for your site"
+msgstr "Informe um nome para seu site"
+
+#: hero-area/hero-area-customizer.php:84
+msgid "http://www.example.com/"
+msgstr "http://www.exemplo.com/"
+
+#: hero-area/hero-area-customizer.php:69
+msgid "Click Me!"
+msgstr "Clique!"
+
+#: hero-area/hero-area-customizer.php:54
+msgid "Write some compelling text to encourage people to click the button below"
+msgstr "Escreva um texto empolgante para encorajar os visitantes a clicarem no botão abaixo"
+
+#: hero-area/hero-area-customizer.php:39
+msgid "Write a headline"
+msgstr "Escreva um cabeçalho"
+
+#: contact-info/contact-info-customizer.php:89
+msgid "M-F: 9-5pm - Weekends: 10-4pm"
+msgstr "Segunda a Sexta: 9-5pm - Sábado e Domingo: 10-4pm"
+
+#: contact-info/contact-info-customizer.php:74
+msgid "email@example.com"
+msgstr "email@exemplo.com"
+
+#: contact-info/contact-info-customizer.php:59
+msgid "(555) 123-4567"
+msgstr "(01) 1234-5678"
+
+#: contact-info/contact-info-customizer.php:44
+msgid "123 Main St, Somewhere XY, 98765"
+msgstr "123 Main St, Somewhere XY, 98765"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:35
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continuar lendo<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: template-parts/content-page.php:26 template-parts/content-single.php:46
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que não encontramos o que você está procurando. Talvez a ferramenta de pesquisa possa ajudar."
+
+#: template-parts/content-none.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Não encontramos nada para estes termos de busca. Tente novamente com palavras-chave diferentes."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pronto para publicar seu primeiro post? <a href=\"%1$s\">Comece aqui</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nenhum resultado"
+
+#: template-parts/content-author.php:34
+msgid "View all posts by %s"
+msgstr "Ver todos os posts de %s"
+
+#: template-parts/content-author.php:28
+msgid "Published by %s"
+msgstr "Publicado por %s"
+
+#: single.php:29
+msgid "<span class=\"meta-nav\">Previous</span> %title"
+msgstr "<span class=\"meta-nav\">Anterior</span> %title"
+
+#: single.php:28
+msgid "<span class=\"meta-nav\">Next</span> %title"
+msgstr "<span class=\"meta-nav\">Próximo</span> %title"
+
+#. translators: %s: search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Resultados da busca por: %s"
+
+#: inc/wpcom-colors.php:153
+msgid "Main Accent"
+msgstr "Cor principal"
+
+#. translators: number of items in the mini cart.
+#: inc/woocommerce.php:244
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d item"
+msgstr[1] "%d itens"
+
+#: inc/woocommerce.php:240 inc/woocommerce.php:241
+msgid "View your shopping cart"
+msgstr "Visualize seu carrinho"
+
+#: inc/template-tags.php:154
+msgid "Reply"
+msgstr "Responder"
+
+#: inc/template-tags.php:147
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando moderação."
+
+#: inc/template-tags.php:95 inc/template-tags.php:117 inc/template-tags.php:153
+#: template-parts/content-page.php:50
+msgid "Edit"
+msgstr "Editar"
+
+#: inc/template-tags.php:114
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:86 template-parts/content-page.php:41
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:75
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:68
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post title
+#: inc/template-tags.php:45
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Deixe um comentário <span class=\"screen-reader-text\"> em %s</span>"
+
+#: inc/template-tags.php:30
+msgid "Featured"
+msgstr "Destaque"
+
+#. translators: %s: Name of current post
+#: inc/template-functions.php:49
+msgid "Continue reading %s"
+msgstr "Continuar lendo %s"
+
+#: inc/style-packs-core.php:234
+msgid "%s Header Image"
+msgstr "%s imagem de cabeçalho"
+
+#: inc/style-packs-core.php:111
+msgid "Active Style"
+msgstr "Estilo ativo"
+
+#: inc/style-packs-core.php:107 inc/style-packs-core.php:276
+msgid "Default"
+msgstr "Padrão"
+
+#: inc/style-packs-core.php:97
+msgid "Style Packs"
+msgstr "Pacotes de estilos"
+
+#: inc/logo-resizer.php:19
+msgid "Logo Size"
+msgstr "Tamanho do logo"
+
+#: inc/icon-functions.php:42
+msgid "Please define an SVG icon filename."
+msgstr "Informe um nome de arquivo de ícone SVG."
+
+#: inc/icon-functions.php:37
+msgid "Please define default parameters in the form of an array."
+msgstr "Informe os parâmetros padrão na forma de um array."
+
+#: hero-area/hero-area-customizer.php:111
+msgid "Adjust the darkness of the overlay over the background image."
+msgstr "Ajuste a opacidade da transparência sobre a imagem de fundo."
+
+#: hero-area/hero-area-customizer.php:110
+msgid "Background Overlay"
+msgstr "Máscara da imagem de fundo"
+
+#: hero-area/hero-area-customizer.php:96
+msgid "Background Image"
+msgstr "Imagem de fundo"
+
+#: hero-area/hero-area-customizer.php:80
+msgid "Button URL Link"
+msgstr "Link do botão"
+
+#: hero-area/hero-area-customizer.php:65
+msgid "Button Text"
+msgstr "Texto do Botão"
+
+#: hero-area/hero-area-customizer.php:50
+msgid "Description"
+msgstr "Descrição"
+
+#: hero-area/hero-area-customizer.php:35
+msgid "Title"
+msgstr "Título"
+
+#: hero-area/hero-area-customizer.php:23
+msgid "Display on the Front Page"
+msgstr "Exibir na página inicial"
+
+#: header.php:69
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Ir para conteúdo"
+
+#: functions.php:144
+msgid "Collapse child menu"
+msgstr "Recolher menu filho"
+
+#: functions.php:143
+msgid "Expand child menu"
+msgstr "Expandir menu filho"
+
+#: functions.php:123
+msgid "Footer 3"
+msgstr "Rodapé 3"
+
+#: functions.php:113
+msgid "Footer 2"
+msgstr "Rodapé 2"
+
+#: functions.php:103
+msgid "Footer 1"
+msgstr "Rodapé 1"
+
+#: functions.php:48
+msgid "Header"
+msgstr "Cabeçalho"
+
+#. translators: 1: Theme name, 2: Theme author.
+#: footer.php:27
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s %2$s."
+
+#. translators: %s: CMS name, i.e. WordPress.
+#: footer.php:22
+msgid "Proudly powered by %s"
+msgstr "Orgulhosamente feito com %s"
+
+#: footer.php:20
+msgid "https://wordpress.org/"
+msgstr "http://br.wordpress.org/"
+
+#: contact-info/contact-info-customizer.php:85
+#: contact-info/contact-info-functions.php:87
+msgid "Hours"
+msgstr "Horas"
+
+#: contact-info/contact-info-customizer.php:70
+msgid "Email"
+msgstr "Endereço de email"
+
+#: contact-info/contact-info-customizer.php:55
+#: contact-info/contact-info-functions.php:70
+msgid "Phone"
+msgstr "Telefone"
+
+#: contact-info/contact-info-customizer.php:40
+msgid "Address"
+msgstr "Endereço"
+
+#: contact-info/contact-info-customizer.php:29
+msgid "In the footer"
+msgstr "No rodapé"
+
+#: contact-info/contact-info-customizer.php:28
+msgid "In the header"
+msgstr "No cabeçalho"
+
+#: contact-info/contact-info-customizer.php:24
+msgid "Where would you like to display your contact information?"
+msgstr "Onde você deseja exibir suas informações de contato?"
+
+#: contact-info/contact-info-customizer.php:12
+msgid "Display your location, hours, and contact information."
+msgstr "Forneça a localização, o horário e as informações de contato."
+
+#: contact-info/contact-info-customizer.php:11
+msgid "Contact Info"
+msgstr "Informações de contato"
+
+#: comments.php:95
+msgid "Comments are closed."
+msgstr "Comentários encerrados."
+
+#: comments.php:54 comments.php:76
+msgid "Newer Comments"
+msgstr "Comentários mais recentes"
+
+#: comments.php:53 comments.php:75
+msgid "Older Comments"
+msgstr "Comentários mais antigos"
+
+#: comments.php:50 comments.php:72
+msgid "Comment navigation"
+msgstr "Navegação entre comentários"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Um comentário em &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentários em &ldquo;%2$s&rdquo;"
+
+#. translators: 1: title.
+#: comments.php:34
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Um comentário em &ldquo;%1$s&rdquo;"
+
+#: archive.php:40 index.php:45 search.php:40
+msgid "Newer Posts"
+msgstr "Posts mais recentes"
+
+#: archive.php:39 index.php:44 search.php:39
+msgid "Older Posts"
+msgstr "Posts antigos"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ops! Essa página não pode ser encontrada."
