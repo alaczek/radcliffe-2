@@ -26,27 +26,6 @@ function radcliffe_2_jetpack_setup() {
 	// Add theme support for Responsive Videos.
 	add_theme_support( 'jetpack-responsive-videos' );
 
-	// Add theme support for Content Options.
-	add_theme_support( 'jetpack-content-options', array(
-		'author-bio'           => true,
-		'avatar-default'       => false,
-		'post-details'         => array(
-			'stylesheet'       => 'radcliffe-2-style',
-			'date'             => '.posted-on',
-			'categories'       => '.cat-links',
-			'tags'             => '.tags-links',
-			'author'           => '.byline',
-			'comment'          => '.comments-link',
-		),
-		'featured-images'      => array(
-			'archive'          => true,
-			'post'             => true,
-			'page'             => true,
-			'fallback'         => true,
-			'fallback-default' => false,
-		),
-	) );
-
 	// Add theme support for Social Menus
 	add_theme_support( 'jetpack-social-menu', 'svg' );
 }
