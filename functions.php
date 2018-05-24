@@ -129,6 +129,15 @@ function radcliffe_2_scripts() {
 add_action( 'wp_enqueue_scripts', 'radcliffe_2_scripts' );
 
 /**
+ * Enqueue editor styles for Gutenberg
+ */
+function radcliffe_2_editor_styles() {
+	wp_enqueue_style( 'radcliffe-2-editor-style', get_template_directory_uri() . '/assets/css/editor-style.css' );
+}
+add_action( 'enqueue_block_editor_assets', 'radcliffe_2_editor_styles' );
+
+
+/**
  * Enqueue stylesheet inside the Customizer.
  */
 function radcliffe_2_custom_customize_enqueue() {
