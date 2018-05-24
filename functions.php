@@ -102,6 +102,43 @@ function radcliffe_2_content_width() {
 }
 add_action( 'after_setup_theme', 'radcliffe_2_content_width', 0 );
 
+/**
+ * Register widget area.
+ *
+ * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
+ */
+function radcliffe_2_widgets_init() {
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer 1', 'radcliffe-2' ),
+		'id'            => 'sidebar-1',
+		'description'   => '',
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer 2', 'radcliffe-2' ),
+		'id'            => 'sidebar-2',
+		'description'   => '',
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer 3', 'radcliffe-2' ),
+		'id'            => 'sidebar-3',
+		'description'   => '',
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'radcliffe_2_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
