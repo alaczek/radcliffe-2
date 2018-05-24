@@ -37,9 +37,6 @@ function radcliffe_2_customize_register( $wp_customize ) {
 	$wp_customize->get_section( 'title_tagline' )->priority = 11;
 	$wp_customize->get_section( 'style_pack_theme_options' )->priority = 14;
 
-	// Remove the Additional CSS panel
-	$wp_customize->remove_section( 'custom_css' );
-
 }
 add_action( 'customize_register', 'radcliffe_2_customize_register' );
 
